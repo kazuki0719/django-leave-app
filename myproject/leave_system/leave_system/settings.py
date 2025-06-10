@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-WSGI_APPLICATION = "leave_system.wsgi.application"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-cz6w--a0pz__3)pk)-x027u7a29(#pnc^@0)3#9kw%c2&3$h03'
+SECRET_KEY = 'django-insecure-lyrms#(zp^ei#$6=(k^=n5gq&z%6v1&kel#v8+g^b$i93-psni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'leave',
 ]
 
 MIDDLEWARE = [
